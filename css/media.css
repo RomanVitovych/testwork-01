@@ -1,0 +1,138 @@
+@media (min-width: 768px) {
+    .container {
+      width: 748px;
+    }
+
+    /* ========== HEADER ========== */
+
+    .banner {
+        min-height: 800px;
+    }
+
+    /* ===== Site Header ===== */
+
+    .site-navigation {
+        flex-wrap: nowrap;
+        margin-bottom: 120px;
+    }
+
+    .site-menu {
+        width: 75%;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0;
+    }
+
+    /* === humburger menu === */
+
+    .header li {
+        float: left;
+    }
+    .header li a {
+        padding: 20px 0 5px 0;
+        margin-right: 15px;
+        transition: all 0.3s linear;
+    }
+    .header li a:hover,
+    .header .menu-btn:hover {
+        background-color:transparent;
+        border-bottom: 2px solid #ffffff;
+    }
+    .header .logo {
+        padding: 10px 40px 10px 0;
+    }
+    .header .menu {
+        clear: none;
+        float: right;
+        max-height: none;
+    }
+    .header .menu-icon {
+        display: none;
+    }
+
+    .header ul {
+        background: none;
+    }
+
+    /* === site sign === */
+
+    .site-sign  {
+        justify-content: space-between;
+    }
+
+    /* === header title === */
+
+.header-title {
+    font-size: 42px;
+    line-height: 1.4;
+    margin-bottom: 60px;
+}
+
+    /* ========== MAIN ========== */
+
+    /* ===== Services ===== */
+
+    .services {
+        margin-top: -100px;
+    }
+
+    .services-list {
+        display: flex;
+        margin-bottom: 100px;
+    }
+
+    .services-list__item {
+        padding: 0 20px;
+        margin-bottom: 0;
+    }
+
+    /* ===== Article ===== */
+
+    .article {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding-bottom: 60px;
+    }
+
+    .article-title {
+        font-size: 42px;
+        min-width: 50%;
+        padding: 0 40px;
+        margin-bottom: 0;
+    }
+
+    .article-text {
+        padding: 0 10px;
+    }
+}
+
+
+@media (min-width: 962px) {
+    .container {
+      width: 942px;
+    }
+
+    .banner {
+        min-height: 1000px;
+    }
+
+    .site-navigation {
+        margin-bottom: 200px;
+    }
+
+    .header-title {
+        font-size: 48px;
+        margin-bottom: 80px;
+    }
+
+    .services {
+        margin-top: -120px;
+    }
+
+    .services-list__item img {
+        padding-bottom: 80px;
+    }
+
+
+}
