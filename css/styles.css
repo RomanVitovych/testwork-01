@@ -148,12 +148,12 @@ button {
 
 /* header */
 
-.header {
-    /* background-color: #fff; */
-    /* box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1); */
-    /* position: fixed; */
-    /* z-index: 3; */
-}
+/* .header {
+    background-color: #fff;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    position: fixed;
+    z-index: 3;
+} */
 
 .header ul {
     margin: 0;
@@ -352,14 +352,16 @@ button {
 /* ========== MAIN ========== */
 
 .wrap {
-    background-color: silver;
+    background-color: silver;    
 }
 
 /* ===== Services ===== */
 
 .services {
+    /* width: 100%; */
     background-color: #ffffff;
     margin-top: -80px;
+    margin-right: 0;
 }
 
 .services-list {
@@ -368,6 +370,11 @@ button {
 }
 
 .services-list__item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
     margin-bottom: 20px;
     transition: all 0.2s linear; 
 }
