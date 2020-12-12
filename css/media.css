@@ -25,17 +25,24 @@
 
     /* === humburger menu === */
 
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
     .header li {
         float: left;
     }
     .header li a {
         padding: 20px 0 5px 0;
         margin-right: 15px;
-        transition: all 0.3s linear;
+        border-bottom: 2px solid transparent;
+        /* transition: all 0.3s linear; */
     }
     .header li a:hover,
     .header .menu-btn:hover {
-        background-color:transparent;
+        background:transparent;
         border-bottom: 2px solid #ffffff;
     }
     .header .logo {
@@ -45,6 +52,11 @@
         clear: none;
         float: right;
         max-height: none;
+    }
+    .menu {
+        position: relative;
+        z-index: 0;
+        top: 0;
     }
     .header .menu-icon {
         display: none;
@@ -61,12 +73,12 @@
     }
 
     /* === header title === */
-
-.header-title {
-    font-size: 42px;
-    line-height: 1.4;
-    margin-bottom: 60px;
-}
+ 
+    .header-title {
+        font-size: 42px;
+        line-height: 1.4;
+        margin-bottom: 60px;
+    }
 
     /* ========== MAIN ========== */
 
@@ -122,6 +134,10 @@
         margin-bottom: 200px;
     }
 
+    .header {
+        width: 75%;
+    }
+
     .header-title {
         font-size: 48px;
         margin-bottom: 80px;
@@ -134,6 +150,5 @@
     .services-list__item img {
         padding-bottom: 80px;
     }
-
 
 }

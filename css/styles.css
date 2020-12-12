@@ -115,7 +115,6 @@ button {
 .site-menu {
     width: 300px;
     display: flex;
-    justify-content: space-around;
     align-items: center;
     margin-bottom: 40px;
 }
@@ -148,12 +147,16 @@ button {
 
 /* header */
 
-/* .header {
-    background-color: #fff;
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #fff;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
     position: fixed;
-    z-index: 3;
-} */
+    z-index: 3; */
+}
 
 .header ul {
     margin: 0;
@@ -161,8 +164,8 @@ button {
     list-style: none;
     overflow: hidden;
     /* background-color: #fff; */
-    background: linear-gradient(rgba(35, 7, 77, 0.7),
-    rgba(204, 83, 51, 0.7));
+    background: linear-gradient(rgba(35, 7, 77, 0.9),
+    rgba(204, 83, 51, 0.9));
 }
 
 .header li a {
@@ -174,7 +177,8 @@ button {
 
 .header li a:hover,
 .header .menu-btn:hover {
-    background-color: none;
+    background: linear-gradient(rgba(35, 7, 77, 0.9),
+    rgba(204, 83, 51, 0.9));
 }
 
 .header .logo {
@@ -192,6 +196,12 @@ button {
     max-height: 0;
     width: 300px;
     transition: max-height .2s ease-out;
+}
+
+.menu {
+    position: fixed;
+    z-index: 3;
+    top: 100px;
 }
 
 /* menu icon */
@@ -361,7 +371,7 @@ button {
     /* width: 100%; */
     background-color: #ffffff;
     margin-top: -80px;
-    margin-right: 0;
+    /* margin-right: 0; */
 }
 
 .services-list {
